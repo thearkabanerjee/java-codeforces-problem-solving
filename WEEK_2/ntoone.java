@@ -7,9 +7,9 @@ public class ntoone {
         int a = sc.nextInt();
 
         for (int i = a; i>= 1; i--){
-            System.out.println(i);
+            System.out.print(i + " ");
         }
-
+        System.out.println();
         sc.close();
     }
 }
