@@ -5,8 +5,9 @@ public class methods {
         //methods
         Scanner sc = new Scanner (System.in);
         int a = sc.nextInt();
-
+        int b = sc.nextInt();
         happysong(a);
+        System.out.println(squareofnums(b));
         sc.close();
         
     }
@@ -18,5 +19,9 @@ public class methods {
             System.out.println("happy birthday dear user");
             System.out.println("happy birthday to you\n");
         }
+    }
+
+    static int squareofnums (int b){
+        return (b * b);
     }
 }
