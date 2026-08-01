@@ -21,7 +21,7 @@ public class methods {
         }
     }
 
-    static int squareofnums (int b){
+    static double squareofnums (int b){
         return (b * b);
     }
 }
